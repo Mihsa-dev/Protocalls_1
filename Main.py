@@ -104,7 +104,7 @@ def main():
         country_disp = country if country else "N/A"
         provider_disp = provider if provider else "N/A"
 
-        print(f"| {ind} | {ip} | {asn_disp} | {country_disp} | {provider_disp} |")
+        print(f"| {ind} | {ip} | {asn_disp} | {provider_disp} | {country_disp} |")
 
 
 if __name__ == "__main__":
